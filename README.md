@@ -1,4 +1,4 @@
-# Advanced Computer Vision (CS107203CS) — Assignment B
+# Advanced Computer Vision(CS107203CS) — Assignment B
 # Semantic Segmentation Project
 
 **Name:** Charansri Chintamaneni  
