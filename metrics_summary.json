@@ -1,0 +1,28 @@
+{
+    "baseline": {
+        "mode": "baseline",
+        "parameters": 482754,
+        "test_iou_bg": 0.8481,
+        "test_iou_polyp": 0.3396,
+        "test_miou": 0.5939,
+        "latency_ms_per_img": 2.84,
+        "device": "Tesla T4"
+    },
+    "controlled_change": {
+        "mode": "dilated_bottleneck",
+        "parameters": 482754,
+        "test_iou_bg": 0.8415,
+        "test_iou_polyp": 0.4312,
+        "test_miou": 0.6364,
+        "latency_ms_per_img": 2.96,
+        "device": "Tesla T4"
+    },
+    "environment_versions": {
+        "python": "3.13.16",
+        "torch": "2.14.1+cu130",
+        "torchvision": "0.29.1+cu130",
+        "numpy": "2.4.6",
+        "cuda_available": true,
+        "seed": 42
+    }
+}
